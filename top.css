@@ -1,0 +1,96 @@
+ section#top
+        {
+            background-color:rgb(203, 255, 243);
+            grid-column: 2/5;
+            grid-row: 1;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            color: black;
+            box-shadow: 5px   grey;
+            
+        }
+
+
+        div#topLeft
+        {  
+    width: 70%;
+    grid-column: 1/2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+   
+    position: relative;
+    left: 10%;
+}
+
+div#topRight
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+div#bottomRight
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div#bottomRight>button{
+    margin:1rem;
+    position: relative;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    right:1rem;
+    color:white;
+background-color: rgb(3, 152, 251);
+border-radius: 25px;
+transition: 0.5s;
+font-size: large;
+   
+}
+div#bottomRight>button:hover{
+   color:black;
+   background-color:cyan;
+   transition: 0.5s;
+   transform: scale(1.07);
+}
+
+
+        input[type=search] { 
+            color: #0c1114;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+   font-weight: bolder;
+    word-spacing: 0px;
+    border-radius: 50px;
+    border: white 0px solid;
+    box-shadow: lightblue 2px 2px 2px 2px;
+}
+
+div#bottomLeft
+{
+	    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+	position:relative;
+	left:10%;
+}
+
+div#name
+{
+    display: flex;
+
+    flex-direction: column;
+}
